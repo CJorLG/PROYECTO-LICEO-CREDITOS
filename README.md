@@ -33,13 +33,13 @@ MEJORAS:
 	4.- Interfaz amigable con el usurario e intuitiva
 
 
-1ra Tercia de alumnos (Primer Fase)
+Primer Fase
 
 - Planteamiento del problema
 - Idear una solución
 - Desarrollo y estructuración de la plataforma
 
-2da Tercia de alumnos (Segunda Fase)
+Segunda Fase
 - Implementación de herramientas adicionales
 - Pulir interfaz y mejorar el aspecto visual
 - Agilizar la eficiencia de la plataforma 
