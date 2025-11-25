@@ -13,25 +13,26 @@ además de un ausente registro cronológico donde se indique tanto fecha como ho
 Personalmente el sistema o registro de créditos no es claro ni preciso, y genera una noción ambigua de cuantos crédito se poseen.  
 
 
-PROBLEMAS:
-	1.- No existe una plataforma dedicada
-	2.- El estudiante no posee acceso directo o personal
-	3.- La información no es precisa
-	4.- No existe una interfaz
+PROBLEMAS
 
-SOLUCIONES _HERRAMIENTAS:
-	1.- Base de datos 
-	2.- Sistema de historial / bitácora
-	3.- Algoritmos y estructuras elaboradas
-	4.- Interfaz gráfica
+- No existe una plataforma dedicada
+- El estudiante no posee acceso directo o personal
+- La información no es precisa
+- No existe una interfaz
 
+SOLUCIONES _HERRAMIENTAS
 
-MEJORAS:
-	1.- Plataforma online
-	2.- Accesibilidad al público 
-	3.- Registro exacto y asegurado de la información
-	4.- Interfaz amigable con el usurario e intuitiva
+- Base de datos 
+- Sistema de historial / bitácora
+- Algoritmos y estructuras elaboradas
+- Interfaz gráfica
 
+MEJORAS
+
+- Plataforma online
+- Accesibilidad al público 
+- Registro exacto y asegurado de la información
+- Interfaz amigable con el usurario e intuitiva
 
 Primer Fase
 
@@ -43,4 +44,46 @@ Segunda Fase
 - Implementación de herramientas adicionales
 - Pulir interfaz y mejorar el aspecto visual
 - Agilizar la eficiencia de la plataforma 
--cambio de prueba by edgar moncayo
+
+ROLES: ACTORES
+
+___________________________________________________________________
+- Rector:
+	Visualizar
+		- Todos los estudiantes, totales de créditos de todas las carreras (General ó Seccionado p.carrera)
+___________________________________________________________________
+- Coordinador: 
+	Consulta
+		- Visibilidad de alumno
+			*Solo de las carreras que le corresponden
+	Editar
+		- Crear nuevos estudiantes
+		- Subir créditos/actividades
+		- Subir reportes Excel
+			*Si es nuevo estudiantes lo agrega
+			*Si no es nuevo estudiante solo actualiza
+[Ejemplo]
+	|A Actividad | Nombre Act. |
+	|B Cuatri.   | No. Cuatri. |
+	|C Alumno    | No. Créditos|
+	----------------------------
+	|____________|_____________|
+	|____________|_____________|
+	|____________|_____________|
+___________________________________________________________________
+- Alumnos: 
+	Consulta
+		- Resumen total
+		- Cuatrimestre "Acts."
+		- Subtotal
+[Ejemplo]
+1er Cuatrimestre
+	Act 1: Taller Calabazas - 20
+	Act 2: Día 15 Sep - 30
+	Act 3: Juegos Mesa Nav. - 25
+	Act 4: Inscripción - 20
+	subtotal: 95
+___________________________________________________________________
+
+Jorell
+edgar 
