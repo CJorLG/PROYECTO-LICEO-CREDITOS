@@ -43,3 +43,4 @@ Segunda Fase
 - Implementación de herramientas adicionales
 - Pulir interfaz y mejorar el aspecto visual
 - Agilizar la eficiencia de la plataforma 
+-cambio de prueba by edgar moncayo
