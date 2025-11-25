@@ -45,11 +45,6 @@ Segunda Fase
 - Pulir interfaz y mejorar el aspecto visual
 - Agilizar la eficiencia de la plataforma 
 
-<<<<<<< HEAD
-
-SI
-asies
-=======
 ROLES: ACTORES
 
 ___________________________________________________________________
@@ -89,11 +84,5 @@ ___________________________________________________________________
 	Act 4: Inscripción - 20
 	subtotal: 95
 ___________________________________________________________________
-<<<<<<< HEAD
->>>>>>> f0439e11962efb686b5f2dc7f134bea79066f6d5
 Ulises 
-auxulio
-=======
-
 Jorell
->>>>>>> 430cb6b45d7fedbf55aa580c59e8d72970838ff8
