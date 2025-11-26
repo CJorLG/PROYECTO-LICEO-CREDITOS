@@ -1,0 +1,55 @@
+                          (Inicio del proyecto)
+                                 |
+                                 v
+                        ┌───────────────────┐
+                        │       main        │  ← Rama principal
+                        └───────────────────┘
+                                 |
+                                 | (Crea una nueva funcionalidad)
+                                 v
+                      git switch -c feature-X
+                                 |
+                                 v
+                    ┌───────────────────────────┐
+                    │        feature-X           │  ← Rama de trabajo
+                    └───────────────────────────┘
+                                 |
+                 (Commits mientras desarrollas)
+                                 |
+                                 v
+                    ┌───────────────────────────┐
+                    │   Commit 1, Commit 2...    │
+                    └───────────────────────────┘
+                                 |
+                                 | (Cuando terminas)
+                                 v
+                      git push -u origin feature-X
+                                 |
+                                 v
+                  (Abres Pull Request en GitHub)
+                                 |
+                                 v
+                    ┌───────────────────────────┐
+                    │   Revisión del equipo      │
+                    │   - Comentarios            │
+                    │   - Correcciones           │
+                    └───────────────────────────┘
+                                 |
+                                 | (Aprobado por el equipo)
+                                 v
+                    ┌───────────────────────────┐
+                    │     Merge a main           │
+                    └───────────────────────────┘
+                                 |
+                                 | (main ahora incluye tu trabajo)
+                                 v
+                        git switch main
+                        git pull origin main
+                                 |
+                                 | (Limpieza)
+                                 v
+                      git branch -d feature-X
+                      git push origin --delete feature-X
+                                 |
+                                 v
+                     (Proceso se repite para otra tarea)
